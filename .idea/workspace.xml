@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7148bf5e-1891-435f-bbf8-3e94f7189872" name="Changes" comment="Creación de clases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Orden.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Orden.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Reconocimiento.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Reconocimiento.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Reparacion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Reparacion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tierra.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
