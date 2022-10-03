@@ -1,16 +1,19 @@
+import Ordenes.Orden
+import Ordenes.Reconocimiento
+import Ordenes.Reparacion
 import Tierra.Cuadrante
+import Tierra.Dron
 import Tierra.Tet
 import Tierra.Tierra
 import kotlin.random.Random
 
-class Factoria {
-
+object Factoria {
     fun generarTierra(filas:Int, columnas:Int): Tierra {
-        var tablero = Array(filas){Array<Cuadrante>(columnas){Cuadrante()} }
+        var tablero = Array(filas){Array<Cuadrante>(columnas){ Cuadrante() } }
         return Tierra(tablero)
     }
 
-    fun addDron(tet:Tet, numDrones:Int){
+    fun addDrones(tet: Tet, numDrones:Int){
         for (i in 1 .. numDrones){
             var dron = Dron.Builder().id(i).operativo(true).build()
             tet.drones.add(dron)
@@ -22,17 +25,14 @@ class Factoria {
     }
 
     fun factoriaOrdenes(numOrdenes:Int):ArrayList<Orden>{
-        var items = ArrayList<Item>(0)
-        for (item in 1..numItems){
+        var ordenes = ArrayList<Orden>(0)
+        for (item in 1..numOrdenes){
             var tipo = Random.nextInt(1,4)
             when(tipo){
-                1-> items.add(Item(Tipo.ARMAS, Random.nextInt(50,100)))
-                2-> items.add(Item(Tipo.MEDICINA, Random.nextInt(50,100)))
-                3-> items.add(Item(Tipo.TRAMPA,0))
+                1-> Ordenes.add(Reparacion.Builder().completado(false))
+                2-> Ordenes.add(Reconocimiento.Builder().ha_encontrado())
             }
         }
-        return items
+        return ordenes
     }
 }
-
-

@@ -1,34 +1,29 @@
 fun main(args: Array<String>) {
     var cont = 0
+    var tierra = Factoria.generarTierra(3,3)
 
-    println("BIENVENIDOS A LOS JUEGOS DEL HAMBRE")
-    println("ESTE SERA EL MAPA DONDE JUGARAN NUESTROS TRIBUTOS")
-    pintarTierraVacio(Tierra)
-    println("Y ESTE ES EL MAPA UNA VEZ INICIALIZADOS LOS ITEMS Y LOS TRIBUTOS")
-    pintarMapaInicializacion(mapa)
-    //pintarMapaDetalle(mapa)
-
-    mapa.comprobarTributosVivos()
+    //mostrar mapa inicial
     do {
         println("\n\n")
         Thread.sleep(1000)
         cont++
         println("TIEMPO SIMULACION: $cont SEGUNDOS")
 
-        if(cont % 2 == 0){
-            simularMovimiento(mapa)
-            //pintarMapaDetalle(mapa)
+        if(cont % 4 == 0){
+            //estroperDrones
         }
 
-        if(cont % 5 == 0){
-            repeat(4) {
-                mapa.rellenarItems()
-            }
-            pintarResultado(mapa)
+        if(cont % 10 == 0){
+            //Cursar ordenes
         }
 
-        mapa.comprobarTributosVivos()
-    } while (mapa.getTributosVivos().size > 1)
+        if (cont % 20 == 0){
+            //sector resuelve ordenes según el tipo
+        }
 
-    pintarResultadoFinal(mapa)
+
+    } while (cont < 10000)
+
+    //pintarResultadoFinal(tierra)
+
 }

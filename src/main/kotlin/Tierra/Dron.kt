@@ -1,4 +1,4 @@
-import java.util.*
+package Tierra
 
 class Dron(var id: Int?=null, var operativo: Boolean?=null) {
     var aux= 1

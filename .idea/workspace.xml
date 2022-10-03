@@ -6,16 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7148bf5e-1891-435f-bbf8-3e94f7189872" name="Changes" comment="Creación de clases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Cuadrante.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra/Cuadrante.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Factoria.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Factoria.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Dron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra/Dron.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Factoria.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Orden.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Ordenes/Orden.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Personajes/Mecanico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Personajes/Mecanico.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Personajes/Personaje.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Personajes/Supervisora.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Personajes/Supervisora.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra/Tet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tierra.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra/Tierra.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tierra/Cuadrante.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra/Cuadrante.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tierra/Tet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra/Tet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Tierra/Tierra.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Tierra/Tierra.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -58,12 +55,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Tierra" />
       <recent name="Mapa" />
       <recent name="Ordenes" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="JetRunConfigurationType" nameIsGenerated="true">
+    <configuration name="Main" type="JetRunConfigurationType">
       <module name="Desafio_Oblivion" />
       <shortenClasspath name="NONE" />
       <method v="2">
@@ -81,7 +79,7 @@
       <updated>1664364602373</updated>
       <workItem from="1664782048270" duration="32000" />
       <workItem from="1664795184783" duration="2916000" />
-      <workItem from="1664810692124" duration="7903000" />
+      <workItem from="1664810692124" duration="10205000" />
     </task>
     <task id="LOCAL-00001" summary="Creación de clases">
       <created>1664364786491</created>

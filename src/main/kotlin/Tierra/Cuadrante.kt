@@ -1,7 +1,5 @@
 package Tierra
 
-import Dron
-import Ordenes.Orden
 import Personajes.Mecanico
 import Personajes.Supervisora
 import kotlin.random.Random
@@ -18,7 +16,17 @@ class Cuadrante (){
         this.mecanico= Mecanico.Builder().nombre("Jack", pos_x, pos_y).build()
     }
 
+    fun estropearDrones(tierra:Tierra){
+        var aleatorio= Random.nextInt(0,100)
+        for (i in 0.. tierra.tierra.size)
+            for(j in 0 .. tierra.tierra.size[i]){
+                if (aleatorio <=20){
+                    //tierra.tierra[i].Cuadrante.Dron.Estropeado = true
+                }
+            }
+
     }
 
-
 }
+
+
