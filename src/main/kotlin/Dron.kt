@@ -1,11 +1,10 @@
-import Ordenes.Orden
 import java.util.*
 
-class Dron (var id:Int, var operativo:Boolean) {
-
-    class Builder(var id:Int, var operativo:Boolean) {
-        fun id(id: Int): Builder {
-            this.id = id
+class Dron(var id: Int?=null, var operativo: Boolean?=null) {
+    var aux= 1
+    class Builder(var id:Int?=null, var operativo:Boolean?=null) {
+        fun id(id:Int): Builder {
+            this.id = 1
             return this
         }
 
@@ -17,6 +16,10 @@ class Dron (var id:Int, var operativo:Boolean) {
         fun build(): Dron {
             return Dron(id, operativo)
         }
+    }
+
+    companion object {
+
     }
 
 

@@ -2,10 +2,10 @@ package Ordenes
 
 import java.util.Date
 
-open class Orden (var fecha:Date?= null, var completado:Boolean?= null,  var cuadrante_dest:Array<Any?>?= null) {
+abstract class Orden (var fecha:Date?= null, var completado:Boolean?= null,  var cuadrante_dest:Array<Any?>?= null) {
 
 
-    open class Builder(var fecha:Date?= null, var completado:Boolean?= null,  var cuadrante_dest:Array<Any?>?= null){
+    class Builder(var fecha:Date?= null, var completado:Boolean?= null,  var cuadrante_dest:Array<Any?>?= null){
         fun fecha(fecha: Date):Builder{
             this.fecha= fecha
             return this
@@ -26,6 +26,6 @@ open class Orden (var fecha:Date?= null, var completado:Boolean?= null,  var cua
 
 
     override fun toString(): String {
-        return "Orden => fecha:" + this.fecha + ", Completado: " + this.completado + ", Cuadrante de destino: " + this.cuadrante_dest
+        return "Orden => fecha:" + this.fecha + ", Completado: " + this.completado + ", Mapa.Cuadrante de destino: " + this.cuadrante_dest
     }
 }
